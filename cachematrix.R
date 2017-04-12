@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+#####################################################################
+## cachematrix.R
+##
+## These functions create a new "matrix" object that caches its own
+## inverse once calculated, and returns the cached value if available
+## in order to save time calculating it each time it's needed
 
 ## makeCacheMatrix: This function creates a special "matrix" object 
 ## that can cache its inverse. 
